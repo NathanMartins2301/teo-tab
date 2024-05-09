@@ -1,3 +1,3 @@
 export default function Home(){
-    return <h1>Git amend --force</h1>
+    return <h1>Nova mensagem</h1>
 }
