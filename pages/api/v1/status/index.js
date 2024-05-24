@@ -20,8 +20,6 @@ export default async function status(req, res) {
   const databaseOpenedConnectionsValue =
     databaseOpenedConnectionsResult.rows[0].count
 
-  console.log(databaseOpenedConnectionsValue)
-
   res.status(200).json({
     updated_at: updatedAt,
     dependencies: {
